@@ -1,0 +1,256 @@
+.title{
+        text-align: center;
+        h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+p {
+    margin-top: 0;
+    font-family: tangerine;
+    font-size: 40px;
+}
+}
+
+.banner {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.story-section {
+    text-align: right;
+    margin-top: 100px;
+    padding: 40px;
+    font-size: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Cormorant Garamond";
+}
+
+.story-text {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.big-title {
+    font-size: 80px;
+    letter-spacing: 5px;
+    font-style: italic;
+    font-family: "Pinyon Script";
+
+}
+
+.bride-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    font-family: "Tangerine";
+    font-size: 30px;
+}
+
+.groom-section {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    font-family: "Tangerine";
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.person-photo {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.photo-block {
+    text-align: center;
+}
+
+.top-row {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.details-section {
+    font-family: "Cormorant Garamond";
+    text-align: center;
+    font-size: 30px;
+}
+
+.cake,
+.salon {
+    text-align: center;
+    display: block;
+    margin: 0%;
+    font-family:"Cormorant Garamond";
+}
+
+.cake-photo {
+    width: 300px;
+}
+
+.salon-decor {
+    width: 300px;
+
+}
+
+.location {
+    margin-top: 80px;
+    text-align: center;
+    font-family: "Cormorant Garamond";
+}
+
+.map {
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+.video-button {
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+.entertainment-section {
+    text-align: center;
+    margin-top: 100px;
+    padding: 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    p{
+        font-family: "Cormorant Garamond";
+        font-size: 20px;
+    }
+}
+
+.entertainment-section h1 {
+font-family: "Cormorant Garamond";
+font-size: 40px;
+}
+
+.entertainment-section h2 {
+    font-family: "Codystar";
+    font-size: 30px;
+}
+
+.seating-section {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    font-family: "Cormorant Garamond";
+    h1 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+
+.seating-chart {
+    width: 70%;
+    max-width: 700px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+}
+
+.seat-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 60%;
+}
+
+body {
+    background-color: ivory;
+}
+
+.story-section,
+.bride-section,
+.details-section,
+.entertainment-section,
+.footer-note, 
+.seating-section {
+    border-top: 1px solid #d9cfc2;
+    padding-top: 50px;
+}
+
+button {
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: 1px solid #cdb79e;
+    background-color: #f8f4ef;
+    cursor: pointer;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    button {
+    transition: 0.3s;
+}
+}
+
+.video-button {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid #cdb79e;
+    transition: 0.3s;
+}
+
+.video-button:hover {
+    transform: scale(1.05);
+}
+
+.big-title {
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+.person-photo,
+.cake-photo,
+.salon-decor {
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+}
+
+.person-photo:hover,
+.cake-photo:hover,
+.salon-decor:hover {
+    transform: scale(1.03);
+}
+
+.person-photo {
+    border-radius: 30px;
+    border: 5px solid #e5d8c9;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+}
+
+.footer-note {
+    margin-top: 90px;
+}
+
+.invitation {
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
