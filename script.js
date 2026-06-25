@@ -36,3 +36,15 @@ function chooseSeat(seatNumber) {
 
     document.getElementById("seat-message").textContent = message;
 }
+
+const cards = document.querySelectorAll(".flip-card");
+
+cards.forEach(card => {
+
+    card.addEventListener("click", () => {
+
+        card.classList.toggle("active");
+
+    });
+
+});
